@@ -4,36 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukiyan Recipe</title>
+    <link rel="stylesheet" href="style.css"
 </head>
-<body>
-    <h1>Chayakkada Sukiyan</h1>
-    <img src="sukiyan image.jpg">
-    <h3>Ingredients</h3>
-    <ul>
-        <li>Green Gram</li>
-        <li>Maida</li>
-        <li>Salt</li>
-        <li>Sugar</li>
-        <li>Turmeric Powder</li>
-        <li>Rice Powder</li>
-        <li>Jaggery</li>
-        <li>Grated Coconut</li>
-        <li>Cardamon</li>
-        <li>Cumin seed</li>
-        <li>Beaten Rice</li>
-        <li>Water</li>
+<body style="background-color: cornsilk;">
+    <div class="header">
+        <h1>Chayakkada Sukiyan</h1>
+    </div>
+    <div class="image">
+        <img src="sukiyan image.jpg">
+    </div>
+    <div class="container">
+        
+        <ul>
+            <li style="font-size: 25px;">Ingredients</li>
+            <br>
+        <ul>
+            <li>Green Gram</li>
+            <li>Maida</li>
+            <li>Salt</li>
+            <li>Sugar</li>
+            <li>Turmeric Powder</li>
+            <li>Rice Powder</li>
+            <li>Jaggery</li>
+            <li>Grated Coconut</li>
+            <li>Cardamon</li>
+            <li>Cumin seed</li>
+            <li>Beaten Rice</li>
+            <li>Water</li>
+        </ul>
+        <br>
+        <br>
+       <li style="font-size: 25px;">Steps</li>
+       <br>
+        <ol>
+            <li>For 20 Sukiyan, take 1 cup of Green Gram, clean it thoroughly, rinse it and put it in a pressure cooker.</li>
+            <li>Pour one and a half cup of water, cook it until it hit 5 whistles. By the time we can prepare the coating.</li>
+            <li>For that, take 1 cup of maida, half teaspoon salt, half tablespoon sugar, 1/4 teaspoon turmeric powder, 2 tablespoon rice powder, 1 and 1/4 cup of water, mix it well and keep it aside.</li>
+            <li>Melt 3/4 cup jaggery with 1/4 cup water and pour it to the cooked Green Gram.</li>
+            <li>Take 4 cardamon seed, 1 teaspoon cumin seed, 2 tablespoon sugar and grind it. Put this mix and 1 cup grated coconut into the cooked Green Gram.</li>
+            <li>For reducing the water content, put half cup beaten rice, mix it and make 20 equal balls.</li>
+            <li>Take these balls, dip in the coating and fry</li>
+            <li>Your Sukiyan is ready!!</li>
+        </ol>
+        <br>
+        <br>
+        <li style="font-size: 25px;">Listen to the steps</li>
+       <audio src="Sukiyan prep instruction audio.mpeg" controls> Your browser does not support the audio element.</audio>
     </ul>
-    <h3>Steps</h3>
-    <ol>
-        <li>For 20 Sukiyan, take 1 cup of Green Gram, clean it thoroughly, rinse it and put it in a pressure cooker.</li>
-        <li>Pour one and a half cup of water, cook it until it hit 5 whistles. By the time we can prepare the coating.</li>
-        <li>For that, take 1 cup of maida, half teaspoon salt, half tablespoon sugar, 1/4 teaspoon turmeric powder, 2 tablespoon rice powder, 1 and 1/4 cup of water, mix it well and keep it aside.</li>
-        <li>Melt 3/4 cup jaggery with 1/4 cup water and pour it to the cooked Green Gram.</li>
-        <li>Take 4 cardamon seed, 1 teaspoon cumin seed, 2 tablespoon sugar and grind it. Put this mix and 1 cup grated coconut into the cooked Green Gram.</li>
-        <li>For reducing the water content, put half cup beaten rice, mix it and make 20 equal balls.</li>
-        <li>Take these balls, dip in the coating and fry</li>
-        <li>Your Sukiyan is ready!!</li>
-    </ol>
-    <audio src="Sukiyan prep instruction audio.mpeg" controls> Your browser does not support the audio element.</audio>
+    </div>
+    <di class="form">
+        <h2>Feedback form</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear form">
+        </form>
+    </di>
 </body>
 </html>
