@@ -1,5 +1,8 @@
 .header {
     text-align: center;
+    background-color: darkkhaki;
+    padding-top: 1px;
+    padding-bottom: 1px; 
 }
 
 img {
@@ -12,9 +15,15 @@ img {
 }
 
 .container{
-    margin-left: 70px;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-color:antiquewhite;
 }
 
 .form{
-    margin-left: 70px;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-color: burlywood;
 }
