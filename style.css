@@ -17,6 +17,19 @@ img {
 .image{
     text-align: center;
 }
+marquee{
+    font-size: 30px;
+    margin-left: 30%;
+    width: 40%;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            display: inline-block;
+    font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 .container{
     padding-left: 10%;
