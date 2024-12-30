@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukiyan Recipe</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: cornsilk;">
     <div class="header">
-        <h1>Chayakkada Sukiyan</h1>
+        <h1>Sukiyan</h1>
     </div>
     <br>
     <div class="image">
         <img src="sukiyan image.jpg">
     </div>
+    <br>
     <div class="container">
-        
-        <ul>
-            <li style="font-size: 25px;">Ingredients</li>
-            <br>
+    
+            <h2 style="font-size: 40px;">Ingredients</h2>
+            
         <ul>
             <li>Green Gram</li>
             <li>Maida</li>
@@ -35,8 +38,7 @@
         </ul>
         <br>
         <br>
-       <li style="font-size: 25px;">Steps</li>
-       <br>
+       <h2 style="font-size: 40px;">Steps</h2>
         <ol>
             <li>For 20 Sukiyan, take 1 cup of Green Gram, clean it thoroughly, rinse it and put it in a pressure cooker.</li>
             <li>Pour one and a half cup of water, cook it until it hit 5 whistles. By the time we can prepare the coating.</li>
@@ -49,19 +51,34 @@
         </ol>
         <br>
         <br>
-        <li style="font-size: 25px;">Listen to the steps</li>
+        <h2 style="font-size: 40px;">Listen to the steps</h2>
        <audio src="Sukiyan prep instruction audio.mpeg" controls> Your browser does not support the audio element.</audio>
-    </ul>
+    
     </div>
     <br>
     <div class="form">
-        <h2>Feedback form</h2>
+        <h2 style="font-size: 30px";>Feedback form</h2>
         <form action="/submit" method="post">
-            <label for="name">Name: </label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="name" style="font-size: 30px">Name: </label>
+            <input type="text" id="name" name="name" required>
             <br><br>
-            <label for="email">Email: </label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="email" style="font-size: 30px">Email: </label>
+            <input type="email" id="email" required>
+            <br><br>
+            <label style="font-size: 30px">How do you rate the recipe</label><br>
+            <input type="radio" name="rating" value="5" id="star5">
+            <label for="star5" style="font-size: 30px">5</label><br>
+            <input type="radio" name="rating" value="4" id="star4">
+            <label for="star4" style="font-size: 30px">4</label><br>
+            <input type="radio" name="rating" value="3" id="star3">
+            <label for="star3" style="font-size: 30px">3</label><br>
+            <input type="radio" name="rating" value="2" id="star2">
+            <label for="star2" style="font-size: 30px">2</label><br>
+            <input type="radio" name="rating" value="1" id="star1">
+            <label for="star1" style="font-size: 30px">1</label><br>
+            <br>
+            <label style="font-size: 30px">Overall Feedback</label><br>
+            <textarea cols="50" rows="7" name="Feedback" placeholder="Feedback"></textarea>
             <br><br>
             <input type="submit" value="Submit">
             <input type="reset" value="Clear form">

@@ -2,7 +2,11 @@
     text-align: center;
     background-color: darkkhaki;
     padding-top: 1px;
-    padding-bottom: 1px; 
+    padding-bottom: 1px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
 }
 
 img {
@@ -21,9 +25,39 @@ img {
     background-color:antiquewhite;
 }
 
+h2 {
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+ul{
+    font-size: 25px;
+}
+
+ol{
+    font-size: 25px;
+}
+
+li {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .form{
     padding-left: 10%;
     padding-top: 1%;
     padding-bottom: 5%;
     background-color: burlywood;
+    
 }
+
+label {
+    font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
